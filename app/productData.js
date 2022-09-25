@@ -11,7 +11,7 @@ const products = [
         currentBid: 752,
         buyNow: 896,
         bitAmount: 2,
-        countDown: "00d:00h:00m:00s",
+        countDown: "00d:00h:00m:00s", // endBidDateTime "2022-09-25T08:00:00Z" UTC-0
         owner: "userID",
         winnerBid: "userID",
     },

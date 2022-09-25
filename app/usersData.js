@@ -4,6 +4,7 @@ const users = [
         username: "0",
         password: "0",
         watchList: [1, 2, 3],
+
     }
 
 ];
