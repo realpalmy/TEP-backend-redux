@@ -45,4 +45,16 @@ router.post('/', (req, res) => {
     res.json(product);
 });
 
+router.put('/:id', (req, res) => {
+    const { name, imageURL, type } = req.body;
+    const productId = Number.parseInt(req.params.id);
+    const product = data.find((product) => product.id === productId);
+
+    product.name = name;
+    product.imageURL = imageURL;
+    product.type = type;
+
+    res.json(product);
+});
+
 module.exports = router;
