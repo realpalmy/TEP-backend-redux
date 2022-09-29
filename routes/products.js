@@ -91,6 +91,13 @@ router.get('/img/:file', (req, res) => {
     res.sendFile(filePath);
 });
 
+router.put('/update/:id', (req, res) => {
+    const { currentBid } = req.body;
+    const productId = Number.parseInt(req.params.id);
+    const product = data.find((product) => product.id === productId);
+    product.currentBid = currentBid;
+    res.json(product);
+});
 
 const showImg = (req, res) => {
     const filePath = `${process.cwd()}/assets/img/${req.params.id}`;
