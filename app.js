@@ -3,6 +3,7 @@ const morgan = require('morgan');
 var cors = require('cors');
 
 const productRoutes = require('./routes/products');
+const userLoginRoutes = require('./routes/login');
 
 const app = express();
 
@@ -16,6 +17,8 @@ var corsOptions = {
 }
 
 app.use('/products', cors(corsOptions), productRoutes);
+app.use('/login', cors(corsOptions), userLoginRoutes);
+
 
 app.listen(8000, () => {
     console.log('Listening on port 8000');
