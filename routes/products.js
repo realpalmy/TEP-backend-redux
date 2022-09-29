@@ -11,13 +11,13 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
     const productId = Number.parseInt(req.params.id);
-    const product = data.find((product) => product.id === productId);
+    const product = data.find((product) => product.id == productId);
     res.json(product);
 });
 
 router.get('/category/:categoryID', (req, res) => {
     const productId = Number.parseInt(req.params.categoryID);
-    const product = data.filter((product) => product.category.categoryID === productId);
+    const product = data.filter((product) => product.category.categoryID == productId);
     res.json(product);
 });
 
