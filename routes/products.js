@@ -21,7 +21,7 @@ router.get('/category/:categoryID', (req, res) => {
     res.json(product);
 });
 
-let currentProductId = 40;
+let currentProductId = 50;
 
 router.post('/', (req, res) => {
     const {
@@ -44,18 +44,6 @@ router.post('/', (req, res) => {
         winnerBid,
     };
     data.push(product);
-    res.json(product);
-});
-
-router.put('/:id', (req, res) => {
-    const { name, imageURL, type } = req.body;
-    const productId = Number.parseInt(req.params.id);
-    const product = data.find((product) => product.id === productId);
-
-    product.name = name;
-    product.imageURL = imageURL;
-    product.type = type;
-
     res.json(product);
 });
 
