@@ -85,14 +85,15 @@ router.get('/img/:file', (req, res) => {
 });
 
 router.put('/update/:id', (req, res) => {
-    const { currentBid } = req.body;
+    const { currentBid, userid } = req.body;
     const productId = Number.parseInt(req.params.id);
-    const product = data.find((product) => product.id === productId);
+    const product = data.find((product) => product.id == productId);
     product.currentBid = currentBid;
+    product.bitAmount.push(userid);
+    const x = [...new Set(product.bitAmount)];
+    product.bitAmount = x;
     res.json(product);
 });
-
-
 
 const showImg = (req, res) => {
     const filePath = `${process.cwd()}/assets/img/${req.params.id}`;
