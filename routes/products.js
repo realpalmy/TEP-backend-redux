@@ -105,7 +105,7 @@ router.get('/owner/:id', (req, res) => {
 });
 
 router.put('/update/:id', (req, res) => {
-    const { currentBid, userid,winnerBid } = req.body;
+    const { currentBid, userid, winnerBid } = req.body;
     const productId = Number.parseInt(req.params.id);
     const product = data.find((product) => product.id == productId);
     product.currentBid = currentBid;
@@ -120,7 +120,7 @@ router.put('/buynow/:id', (req, res) => {
     const { time, winnerBid } = req.body;
     const productId = Number.parseInt(req.params.id);
     const product = data.find((product) => product.id == productId);
-    product.time = time;
+    product.countDown = time;
     product.winnerBid = winnerBid;
     res.json(product);
 });
