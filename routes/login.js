@@ -19,8 +19,8 @@ router.post('/user', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  const userId = Number.parseInt(req.params.id);
-  const product = data.find((product) => user.id == userId);
+  const userID = Number.parseInt(req.params.id);
+  const product = user.find((product) => product.id == userID);
   res.json(product);
 });
 

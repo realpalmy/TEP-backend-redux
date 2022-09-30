@@ -3,7 +3,6 @@ const user = [
         id: 1,
         username: "top@gmail",
         password: "1234",
-        watchList: [1, 2, 3],
     },
     {
         id: 2,
