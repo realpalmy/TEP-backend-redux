@@ -8,6 +8,11 @@ router.get('/', (req, res) => {
     res.json(data);
 });
 
+// router.get('/random', (req, res) => {
+//     const x = Array(20).fill().map(() => Math.round(Math.random() * 20))
+//     const product = data.filter((product) => x.find(product.id));
+//     res.send(x);
+// });
 
 router.get('/:id', (req, res) => {
     const productId = Number.parseInt(req.params.id);
@@ -86,6 +91,8 @@ router.put('/update/:id', (req, res) => {
     product.currentBid = currentBid;
     res.json(product);
 });
+
+
 
 const showImg = (req, res) => {
     const filePath = `${process.cwd()}/assets/img/${req.params.id}`;
