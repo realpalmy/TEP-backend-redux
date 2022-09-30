@@ -657,13 +657,13 @@ const products = [
     },
     {
         id: 42,
-        imgUrl: "",
-        title: "Yonex ",
+        imgUrl: "https://images.footballfanatics.com/chicago-bulls/chicago-bulls-jordan-statement-swingman-shorts-youth_ss4_p-12013393+u-trkjguf051o3agd781x6+v-6a774674644049d8a6acbe621819538d.jpg?_hv=2&w=900",
+        title: "Chicago Bulls Jordan Statement Swingman Shorts - Youth",
         category: {
             categoryID: 5,
             caregoryName: "SPORT"
         },
-        detail: "",
+        detail: "Look, feel and move like a pro on or off the court with the Chicago Bulls Jordan Statement Swingman Shorts - Youth Inspired by the authentic NBA shorts, the shorts feature sweat-wicking double-knit fabric and side pockets for easy access to your essential items.",
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
