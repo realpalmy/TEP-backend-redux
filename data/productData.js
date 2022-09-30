@@ -11,8 +11,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-09-01", // endBidDateTime "2022-09-25T08:00:00Z" UTC-0
-        owner: 0,
+        countDown: "2022-10-03", // endBidDateTime "2022-09-25T08:00:00Z" UTC-0
+        owner: 1,
         winnerBid: 3,
     },
     {
@@ -28,7 +28,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -43,8 +43,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-01",
-        owner: 0,
+        countDown: "2022-10-02",
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -60,7 +60,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -76,7 +76,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -92,7 +92,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -108,7 +108,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-02",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -124,7 +124,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -140,7 +140,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-02",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -156,7 +156,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -172,7 +172,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -188,7 +188,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -203,8 +203,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -220,7 +220,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -236,7 +236,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -252,7 +252,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -268,7 +268,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -284,7 +284,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -299,8 +299,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -315,8 +315,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -331,8 +331,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -347,8 +347,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -364,7 +364,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -380,7 +380,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -395,8 +395,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-04",
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -411,8 +411,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-05",
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -428,7 +428,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -443,8 +443,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -460,7 +460,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -476,7 +476,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -492,7 +492,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -508,7 +508,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -524,7 +524,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -540,7 +540,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -555,8 +555,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-05",
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -572,7 +572,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -587,8 +587,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -604,7 +604,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -619,8 +619,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-04",
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -636,7 +636,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -652,7 +652,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -668,7 +668,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -684,7 +684,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-03",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -700,7 +700,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -716,7 +716,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-05",
-        owner: 0,
+        owner: 3,
         winnerBid: 0,
     },
     {
@@ -731,8 +731,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 1,
         winnerBid: 0,
     },
     {
@@ -748,7 +748,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -764,7 +764,7 @@ const products = [
         buyNow: 0,
         bitAmount: [],
         countDown: "2022-10-04",
-        owner: 0,
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -779,8 +779,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-04",
+        owner: 2,
         winnerBid: 0,
     },
     {
@@ -795,8 +795,8 @@ const products = [
         currentBid: 0,
         buyNow: 0,
         bitAmount: [],
-        countDown: "2022-10-02",
-        owner: 0,
+        countDown: "2022-10-03",
+        owner: 3,
         winnerBid: 0,
     },
 
