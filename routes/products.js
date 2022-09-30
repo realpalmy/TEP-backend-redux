@@ -92,6 +92,12 @@ router.get('/img/:file', (req, res) => {
     res.sendFile(filePath);
 });
 
+router.get('/owner/:id', (req, res) => {
+    const ownerId = Number.parseInt(req.params.id);
+    const productOwn = data.filter((product) => product.owner == ownerId);
+    res.json(productOwn);
+});
+
 router.put('/update/:id', (req, res) => {
     const { currentBid, userid } = req.body;
     const productId = Number.parseInt(req.params.id);
