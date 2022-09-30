@@ -125,6 +125,13 @@ router.put('/buynow/:id', (req, res) => {
     res.json(product);
 });
 
+router.delete('/:id', (req, res) => {
+    const productId = Number.parseInt(req.params.id);
+    const productIndex = data.findIndex((product) => product.id === productId);
+    data.splice(productIndex, 1);
+    res.sendStatus(204);
+});
+
 const showImg = (req, res) => {
     const filePath = `${process.cwd()}/assets/img/${req.params.id}`;
     res.sendFile(filePath);
