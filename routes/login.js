@@ -15,7 +15,7 @@ router.post('/user', (req, res) => {
     };
     user.push(credentials);
     res.json(credentials);
-    res.sendStatus(201);
+    //res.sendStatus(201);
 });
 
 

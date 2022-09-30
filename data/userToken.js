@@ -1,7 +1,18 @@
 const tokens = [
     {
-        username: "user1",
-        password: "1234"
+        username: "top@gmail",
+        password: "1234",
+        token: "zxcvb123"
+    },
+    {
+        username: "earn@gmail",
+        password: "1234",
+        token: "asdfg456"
+    },
+    {
+        username: "palmy@gmail",
+        password: "1234",
+        token: "qwert789"
     }
 ];
 
