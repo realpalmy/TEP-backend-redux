@@ -34,6 +34,12 @@ router.get('/category/:categoryID', (req, res) => {
     res.json(product);
 });
 
+// router.get('/winner/:productid', (req, res) => {
+//     const productId = Number.parseInt(req.params.productid);
+//     const product = data.filter((product) => product.id == productId);
+//     res.json(product.winnerBid);
+// });
+
 let currentProductId = 50;
 
 router.post('/', (req, res) => {
@@ -99,10 +105,11 @@ router.get('/owner/:id', (req, res) => {
 });
 
 router.put('/update/:id', (req, res) => {
-    const { currentBid, userid } = req.body;
+    const { currentBid, userid,winnerBid } = req.body;
     const productId = Number.parseInt(req.params.id);
     const product = data.find((product) => product.id == productId);
     product.currentBid = currentBid;
+    product.winnerBid = winnerBid;
     product.bitAmount.push(userid);
     const x = [...new Set(product.bitAmount)];
     product.bitAmount = x;
