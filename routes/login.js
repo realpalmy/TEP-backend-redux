@@ -4,18 +4,24 @@ const user = require('../data/userToken');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.json(user);
+  res.json(user);
 });
 
 router.post('/user', (req, res) => {
-    const { username, password } = req.body;
-    const credentials = {
-        username,
-        password
-    };
-    user.push(credentials);
-    res.json(credentials);
-    //res.sendStatus(201);
+  const { username, password } = req.body;
+  const credentials = {
+    username,
+    password
+  };
+  user.push(credentials);
+  res.json(credentials);
+  //res.sendStatus(201);
+});
+
+router.get('/:id', (req, res) => {
+  const userId = Number.parseInt(req.params.id);
+  const product = data.find((product) => user.id == userId);
+  res.json(product);
 });
 
 
