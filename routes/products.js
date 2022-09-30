@@ -8,6 +8,14 @@ router.get('/', (req, res) => {
     res.json(data);
 });
 
+router.get('/onbid/:id', (req, res) => {
+    const userID = Number.parseInt(req.params.id);
+    const products = data.map((item) => {
+        if (item.bitAmount.includes(userID)) return item
+    }).filter(v => v != undefined);
+    res.json(products);
+});
+
 router.get('/random', (req, res) => {
     const x = Array(20).fill().map(() => Math.round(Math.random() * 50));
     const product = data.filter((item) => x.includes(item.id));
