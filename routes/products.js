@@ -8,11 +8,11 @@ router.get('/', (req, res) => {
     res.json(data);
 });
 
-// router.get('/random', (req, res) => {
-//     const x = Array(20).fill().map(() => Math.round(Math.random() * 20))
-//     const product = data.filter((product) => x.find(product.id));
-//     res.send(x);
-// });
+router.get('/random', (req, res) => {
+    const x = Array(20).fill().map(() => Math.round(Math.random() * 50));
+    const product = data.filter((item) => x.includes(item.id));
+    res.json(product);
+});
 
 router.get('/:id', (req, res) => {
     const productId = Number.parseInt(req.params.id);
