@@ -116,6 +116,15 @@ router.put('/update/:id', (req, res) => {
     res.json(product);
 });
 
+router.put('/buynow/:id', (req, res) => {
+    const { time, winnerBid } = req.body;
+    const productId = Number.parseInt(req.params.id);
+    const product = data.find((product) => product.id == productId);
+    product.time = time;
+    product.winnerBid = winnerBid;
+    res.json(product);
+});
+
 const showImg = (req, res) => {
     const filePath = `${process.cwd()}/assets/img/${req.params.id}`;
     res.sendFile(filePath);
